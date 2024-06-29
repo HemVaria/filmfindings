@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="min-h-screen bg-zinc-900 text-white">
+  <header class="flex items-center justify-between p-4 bg-zinc-800">
+    <div class="flex items-center space-x-4">
+      <img src="https://placehold.co/40x40" alt="FilmFindings Logo" class="w-10 h-10">
+      <nav class="hidden md:flex space-x-4">
+        <a href="#" class="hover:text-zinc-400">Home</a>
+        <a href="#" class="hover:text-zinc-400">Reviews</a>
+        <a href="#" class="hover:text-zinc-400">Recommendations</a>
+        <a href="#" class="hover:text-zinc-400">Genres</a>
+        <a href="#" class="hover:text-zinc-400">About</a>
+      </nav>
+    </div>
+    <div class="flex items-center space-x-4">
+      <input type="text" placeholder="Search..." class="hidden md:block p-2 rounded bg-zinc-700 text-white">
+      <img src="https://placehold.co/40x40" alt="User Profile" class="w-10 h-10 rounded-full">
+    </div>
+  </header>
+  
+  <section class="relative">
+    <div class="carousel">
+      <img src="https://placehold.co/1200x400" alt="Featured Movie" class="w-full h-64 object-cover">
+    </div>
+    <div class="absolute bottom-4 left-4 space-x-4">
+      <button class="bg-red-600 text-white px-4 py-2 rounded">Read Review</button>
+      <button class="bg-zinc-700 text-white px-4 py-2 rounded">Add to Watchlist</button>
+    </div>
+  </section>
+  
+  <section class="p-4">
+    <div class="mb-8">
+      <h2 class="text-xl mb-4">Trending Now</h2>
+      <div class="flex space-x-4 overflow-x-auto">
+        <img src="https://placehold.co/200x300" alt="Trending Movie" class="w-48 h-72 object-cover">
+        <img src="https://placehold.co/200x300" alt="Trending Movie" class="w-48 h-72 object-cover">
+        <img src="https://placehold.co/200x300" alt="Trending Movie" class="w-48 h-72 object-cover">
+      </div>
+    </div>
+
+    <div class="mb-8">
+      <h2 class="text-xl mb-4">Top Picks</h2>
+      <div class="flex space-x-4 overflow-x-auto">
+        <img src="https://placehold.co/200x300" alt="Top Pick" class="w-48 h-72 object-cover">
+        <img src="https://placehold.co/200x300" alt="Top Pick" class="w-48 h-72 object-cover">
+        <img src="https://placehold.co/200x300" alt="Top Pick" class="w-48 h-72 object-cover">
+      </div>
+    </div>
+
+    <div class="mb-8">
+      <h2 class="text-xl mb-4">New Releases</h2>
+      <div class="flex space-x-4 overflow-x-auto">
+        <img src="https://placehold.co/200x300" alt="New Release" class="w-48 h-72 object-cover">
+        <img src="https://placehold.co/200x300" alt="New Release" class="w-48 h-72 object-cover">
+        <img src="https://placehold.co/200x300" alt="New Release" class="w-48 h-72 object-cover">
+      </div>
+    </div>
+
+    <div>
+      <h2 class="text-xl mb-4">Genres</h2>
+      <div class="flex space-x-4 overflow-x-auto">
+        <div class="w-48 h-72 bg-zinc-700 flex items-center justify-center">Action</div>
+        <div class="w-48 h-72 bg-zinc-700 flex items-center justify-center">Comedy</div>
+        <div class="w-48 h-72 bg-zinc-700 flex items-center justify-center">Drama</div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="p-4 bg-zinc-800">
+    <div class="flex justify-between">
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-zinc-400">About Us</a>
+        <a href="#" class="hover:text-zinc-400">Contact</a>
+        <a href="#" class="hover:text-zinc-400">Privacy Policy</a>
+        <a href="#" class="hover:text-zinc-400">Terms of Service</a>
+      </div>
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-zinc-400">Facebook</a>
+        <a href="#" class="hover:text-zinc-400">Twitter</a>
+        <a href="#" class="hover:text-zinc-400">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</div>
+  </body>
+</html>
